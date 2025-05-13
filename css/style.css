@@ -1576,3 +1576,69 @@ a:focus {
         margin-top: 100px;
     }
 }
+
+.contact-icon {
+    background-color: #007bff;
+    color: white;
+    font-size: 24px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+
+  .contact-box {
+    background-color: #f1f5fb;
+    padding: 30px;
+    border-radius: 10px;
+    height: 100%;
+  }
+
+  .social-icons a {
+    color: #000;
+    font-size: 20px;
+    margin: 0 10px;
+  }
+
+  .form-section {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 30px;
+  }
+
+  .form-control, .form-select {
+    border-radius: 10px;
+  }
+
+  .btn-send {
+    background-color: #f44336;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 25px;
+  }
+
+  @media (max-width: 768px) {
+    .form-img {
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .form-img img {
+      max-width: 100%;
+    }
+  }
+
+  .custom-carousel {
+    max-width: 600px;    /* Set desired width */
+    margin: 0 auto;      /* Center the carousel */
+  }
+  
+  .custom-carousel .carousel-item img {
+    max-height: 300px;   /* Set desired height */
+    object-fit: contain; /* Maintain image ratio */
+  }
+  
